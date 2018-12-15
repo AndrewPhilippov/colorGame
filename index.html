@@ -4,9 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="#" type="image/x-icon">
   <title>Color Game</title>
 </head>
 <body>
-  
+
+  <h1><span id="colorDisplay">RGB</span> Color Game</h1>
+
+  <div class="message-box">
+    <button class="btn" id="reset"><span class="under-btn"></span>New Colors</button>
+    <span id="message"></span>
+    <div class="mode-box">
+        <button class="mode-box__btn mode-box__btn-easy" id="easyBtn">Easy Mode</button>
+        <button class="mode-box__btn mode-box__btn-hard selected" id="hardBtn">Hard Mode</button>
+    </div>
+  </div>
+
+  <div id="container">
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+  </div>
+
+  <script src="app.js"></script>
 </body>
 </html>
